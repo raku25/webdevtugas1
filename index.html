@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webdev Task</title>
+    
+    <!-- Link CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS internal (yang sekarang ada dalam tag <style>) -->
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 50px;
+        }
+        .profile-text {
+            max-width: 50%;
+        }
+        .profile h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .profile h2 {
+            font-size: 1.5em;
+            margin: 10px 0;
+            color: grey;
+        }
+        .profile p {
+            font-size: 1em;
+            line-height: 1.6;
+        }
+        .profile img {
+            max-width: 40%;
+            height: auto;
+        }
+        .projects {
+            margin-top: 50px;
+        }
+        .projects h2 {
+            font-size: 2em;
+            text-align: center;
+        }
+        .project-item {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .project-item img {
+            width: 100%;
+            height: auto;
+        }
+        .social {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .social img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin: 0 10px;
+        }
+        footer {
+            text-align: center;
+            background-color: #2d003e;
+            color: white;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Profil Section -->
+        <div class="profile">
+            <div class="profile-text">
+                <h1>Hi, I’m Ammar</h1>
+                <h2>Creative Worker</h2>
+                <p>An active third-semester student in the Digital Business program at Jakarta State University (UNJ). I have a strong interest in entrepreneurship, which drives me to actively participate in entrepreneurial activities and business projects. Additionally, I am drawn to UI/UX and web design as they align with my digital business venture. Currently, I am studying web development, motion design, and human resource management to support my academic and professional objectives in this field.</p>
+            </div>
+            <img src="profil.jpg" alt="Profil Ammar">
+        </div>
+
+        <!-- My Works Section -->
+        <div class="projects">
+            <h2>MY WORKS</h2>
+            <div class="project-item">
+                <img src="gakko web.png" alt="GAKKO EDUPLATFORM">
+                <h3>GAKKO EDUPLATFORM</h3>
+            </div>
+            <div class="project-item">
+                <img src="tedxweb.png" alt="TEDxUNJ">
+                <h3>TEDxUNJ</h3>
+            </div>
+            <div class="project-item">
+                <img src="sosmed.png" alt="Socmed Managing">
+                <h3>Socmed Managing</h3>
+            </div>
+        </div>
+
+        <!-- Social Media Section -->
+        <div class="social">
+            <h2>GET TO KNOW ME</h2>
+            <a href="https://www.instagram.com">
+                <img src="instagram.png" alt="Instagram">
+            </a>
+            <a href="https://www.facebook.com">
+                <img src="facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.linkedin.com">
+                <img src="linkedin.png" alt="LinkedIn">
+            </a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Made by Ammar<br>For WEBDEV TASK</p>
+    </footer>
+
+</body>
+</html>
